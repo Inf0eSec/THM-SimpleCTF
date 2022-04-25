@@ -9,7 +9,7 @@ A Simple CTF it is just that!! A CTF for noobs like myself who can hone their sk
 
 **Task 1 -  Simple CTF**
 
-The fisrt step I took in this challenge was to conduct a port scan to identify open ports and running services. I set the -A flag for an noisy aggressive scan and the -oA flag to output all data collated to a file for future reference.
+The fisrt step I took in this challenge was to conduct a port scan to identify open ports and running services. I set the -A flag for a noisy, aggressive, scan and the -oA flag to output all data collated to a file for future reference.
  
 **How many services are running under port 1000?**
 
@@ -40,7 +40,7 @@ To further enumerate details from the target I ran a Gobuster scan to identify a
 ![gobuster](https://user-images.githubusercontent.com/100538982/165145962-e846fdb2-986b-4019-ab10-c148b6ae26c1.png)
 
 
-Entering the URL into the browser and navigating to the directories listed with 200,301 status I uncovered the website version.  Using this version ID I ran a check on the Exploit db to find any vulnerabilities associated with it.
+Entering the URL into the browser and navigating to the directories listed with 200 or 301 status, I uncovered the website version.  Using this version ID I ran a check on the Exploit db to find any vulnerabilities associated with it.
 
 
 ![cms made simple](https://user-images.githubusercontent.com/100538982/165146935-5df2c9ab-ccf7-4af5-bae9-e6021d8bf67e.png)
