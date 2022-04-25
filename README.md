@@ -8,30 +8,32 @@ https://tryhackme.com/room/easyctf
 
  
 **How many services are running under port 1000?**
+
+ ~#nmap -A [IP Address] -oA scan.txt
   
+A. 2
 
 
-
-
+ 
 **What is running on the higher port?** 
 
-
+A. SSH
 
 
 **What's the CVE you're using against the application?**
 
 
-
+A. CVE-2019-9053
 
 
 **To what kind of vulnerability is the application vulnerable?**
 
-
+A. SQLi
 
 
 **What's the password?**
 
-
+  ~#python 46635.py -u http://10.10.176.184/simple/ --crack -w /usr/share/wordlists/dirb/common.txt
 
 
 **Where can you login with the details obtained?**
