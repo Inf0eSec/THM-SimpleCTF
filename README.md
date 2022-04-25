@@ -71,10 +71,12 @@ Running the exploit code against the target machine I was able to find a **salt*
     
 ![exploit scr](https://user-images.githubusercontent.com/100538982/165153787-d3415fb5-c616-4dd3-a4f4-bcb10c507b7f.png)
  
- finding a username I used hydra to crack the password for a user against **SSH**.
+ Uncovering a username I used hydra to crack the password for a user against **SSH**.
  
     
-     ~#hydra -l mitch -P /usr/share/wordlists/rockyou.txt ssh://10.10.176.184:2222
+     ~#hydra -l user -P /usr/share/wordlists/rockyou.txt ssh://10.10.176.184:
+ 
+ **Flags set for Hydra**
 
 
 ![hydra pass](https://user-images.githubusercontent.com/100538982/165156068-30edc714-7dbd-415e-8d75-68a20a3e0ee5.png)
@@ -109,7 +111,11 @@ A. VIM
 
 **What's the root flag?**
 
+A. Now if I told you that where would the fun be in finding out!
 
+I hope you enjoyed reading this quick write-up and maybe you learnt something new from it.  I know I did when I put this together. It certainly gets you thinking about the processes involved when **Capturing the Flag!!!!**
+
+Written by CyberRo0kie
 
 
 
