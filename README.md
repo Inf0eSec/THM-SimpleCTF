@@ -81,6 +81,7 @@ Running the exploit code against the target machine I was able to find a **salt*
  **Flags set for Hydra**
 
 -l denotes username
+
 -P is pathway to wordlsit
 
 ![hydra pass](https://user-images.githubusercontent.com/100538982/165156068-30edc714-7dbd-415e-8d75-68a20a3e0ee5.png)
@@ -88,8 +89,9 @@ Running the exploit code against the target machine I was able to find a **salt*
 
 **Where can you login with the details obtained?**
 
-a. SSH
+A. SSH
 
+Obtaining the user's login details I was able to successfully log into SSH.
 
 ![ssh](https://user-images.githubusercontent.com/100538982/165157137-057c696a-acf7-4fd9-a198-033a49c7ae83.png)
 
@@ -98,16 +100,21 @@ a. SSH
 
 **What's the user flag?**
 
+Using a simple find command I was able to locate the first flag with relative ease
 
 ![user flaag](https://user-images.githubusercontent.com/100538982/165157111-34ae0f0d-70fb-4bed-8edf-dfadec92f0e3.png)
 
 
 **Is there any other user in the home directory? What's its name?**
 
-sunbath
+Moving down through the directories I was able to uncover the other username on  this target.
+
+A. sunbath
 
 
 **What can you leverage to spawn a privileged shell?**
+
+Not spawning a shell as such but identifying a weakness in permissions with a text editor I was able to display the root flag >>>
 
     ~#sudo -l
  
