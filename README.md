@@ -9,7 +9,7 @@ https://tryhackme.com/room/easyctf
  
 **How many services are running under port 1000?**
 
- ~#nmap -A [IP Address] -oA scan.txt
+  ~#nmap -A [IP Address] -oA scan.txt
   
 A. 2
 
