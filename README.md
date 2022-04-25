@@ -3,6 +3,8 @@
 
 https://tryhackme.com/room/easyctf >> Created by  MrSeth6797
 
+Attack machine : THM Attackbox via the browser
+
 A Simple CTF it is just that!! A CTF for noobs like myself who can hone their skills and intuitions required for ethical hacking and CTF challenges.
 
 **Task 1 -  Simple CTF**
@@ -78,6 +80,8 @@ Running the exploit code against the target machine I was able to find a **salt*
  
  **Flags set for Hydra**
 
+-l denotes username
+-P is pathway to wordlsit
 
 ![hydra pass](https://user-images.githubusercontent.com/100538982/165156068-30edc714-7dbd-415e-8d75-68a20a3e0ee5.png)
 
@@ -113,7 +117,7 @@ A. VIM
 
 A. Now if I told you that where would the fun be in finding out!
 
-I hope you enjoyed reading this quick write-up and maybe you learnt something new from it.  I know I did when I put this together. It certainly gets you thinking about the processes involved when **Capturing the Flag!!!!**
+I hope you enjoyed reading this quick write-up and maybe you learnt something new from it.  I know I did when putting this together. It certainly gets you thinking about the processes involved when **Capturing the Flag!!!!**
 
 Written by CyberRo0kie
 
